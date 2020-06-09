@@ -1,0 +1,19 @@
+{
+	"parser": "@typescript-eslint/parser", // Specifies the ESLint parser
+	"plugins": ["@typescript-eslint", "prettier"],
+	"extends": ["airbnb", "plugin:@typescript-eslint/recommended"],
+	"parserOptions": {
+		"ecmaVersion": 2018, // Allows for the parsing of modern ECMAScript features
+		"sourceType": "module" // Allows for the use of imports
+	},
+	"rules": {
+		"prettier/prettier": "error",
+		"no-plusplus": "off",
+		"no-console": "off",
+		"import/extensions": "off",
+		"max-len": "off",
+		"prefer-template": "error",
+		"no-debugger": "error",
+		"no-var": "error"
+	}
+}
